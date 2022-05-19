@@ -1,0 +1,47 @@
+{
+    "1": {
+        "Year": 2014,
+        "Mileage": 35725,
+        "City": "El Paso",
+        "State": " TX",
+        "Vin": "19VDE2E53EE000083",
+        "Make": "Acura",
+        "Model": "ILX6-Speed"
+    },
+    "2": {
+        "Year": 2013,
+        "Mileage": 19606,
+        "City": "Long Island City",
+        "State": " NY",
+        "Vin": "19VDE1F52DE012636",
+        "Make": "Acura",
+        "Model": "ILX5-Speed"
+    },
+    "3": {
+        "Year": 2013,
+        "Mileage": 48851,
+        "City": "El Paso",
+        "State": " TX",
+        "Vin": "19VDE2E52DE000025",
+        "Make": "Acura",
+        "Model": "ILX6-Speed"
+    },
+    "4": {
+        "Year": 2014,
+        "Mileage": 39922,
+        "City": "Windsor",
+        "State": " CO",
+        "Vin": "19VDE1F71EE003817",
+        "Make": "Acura",
+        "Model": "ILX5-Speed"
+    },
+    "5": {
+        "Year": 2016,
+        "Mileage": 22142,
+        "City": "Lindon",
+        "State": " UT",
+        "Vin": "19UDE2F32GA001284",
+        "Make": "Acura",
+        "Model": "ILXAutomatic"
+    }
+}
