@@ -14,7 +14,7 @@ df_carList = df_carList.drop(['Price'], axis = 1)
 df_carList.to_json('./datasets/cars.json', orient='split', compression='infer', index='true')
 df = pd.read_json('./datasets/cars.json', orient ='split', compression = 'infer')
 
-r = redis.Redis(db=1)
+r = redis.Redis(db=2)
 
 with open('./datasets/cars.json') as json_file:
     data = json.load(json_file)
