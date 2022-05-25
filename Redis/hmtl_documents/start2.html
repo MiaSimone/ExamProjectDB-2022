@@ -6,7 +6,30 @@
 </head>
 <body>
 
-    <h2>Start2</h2>
+    <!-- 2 userinput med bruger id og bil id -->
+    <!-- Når der trykkes submit bliver bookingen lagt i mongo db og displayet fra mongodb til kunden -->
+
+    <h1>Booking</h1>
+
+    <br>
+    <form method="POST" action="/data2">
+        <h3>Write your user id</h3>
+        <h4>From 205 to 424</h4>
+
+        <div>
+            Enter user id <input type="text" name="uId"> <br>
+        </div>
+
+        <h3>Input the id of the car you want</h3>
+        <h4>From 1 to 200.000</h4>
+
+        <div>
+            Enter car id <input type="text" name="cId"> <br>
+        </div>
+
+        <input type="submit" value="Submit">
+    </form>
+
 
 </body>
 
