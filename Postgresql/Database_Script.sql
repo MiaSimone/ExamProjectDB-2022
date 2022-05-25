@@ -1,3 +1,9 @@
+--drop table users;
+--drop table address;
+--drop table cities;
+-- drop table roles;
+
+
 CREATE TABLE IF NOT EXISTS roles(
    role_id serial PRIMARY KEY NOT NULL,
    role varchar(10) NOT NULL
@@ -27,11 +33,13 @@ CREATE TABLE IF NOT EXISTS users(
    role_id int NOT NULL,
    CONSTRAINT users_fk_address
       FOREIGN KEY(address_id) 
-	  REFERENCES address(address_id),
-	CONSTRAINT users_fk_role
-      FOREIGN KEY(role_id) 
-	  REFERENCES roles(role_id),
+	  REFERENCES address(address_id)
 );
+
+ALTER TABLE users 
+ADD CONSTRAINT users_fk_role 
+FOREIGN KEY (role_id) 
+REFERENCES roles(role_id);
 
 INSERT INTO public.roles ("role") VALUES
 	 ('admin'),
